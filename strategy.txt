@@ -1,0 +1,7 @@
+generate a computer choice 
+take players choice
+compare the two selection using specific rules
+give point to winner
+check if either score reached 5 if yes skip the next step
+repeat step 1-5
+declare the winner
