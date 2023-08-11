@@ -1,0 +1,6 @@
+the game will great with with hello player
+then ask to choose from three images/buttons
+under the selection section is the match section where two images the computerSelection and the playerSelection is displayed
+unnder the match section a result section is preseent which displays the winner
+last a score board is present which displayes the sccores of the two 
+he first to reach 5 is declared champion 
