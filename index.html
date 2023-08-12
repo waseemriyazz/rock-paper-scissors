@@ -8,13 +8,25 @@
 </head>
 <body>
   <div class="Game-div">
-    <h1 class="playerSelection"> PLAYER: </h1>
-    <h1 class="computerSelection">COMPUTER: </h1>
-    <div class="scoreCard">
+    <div class="Selection">
+        <h1>Make your choice!</h1>
+        <button class="btn">ROCK</button>
+        <button class="btn">PAPER</button>
+        <button class="btn">SCISSORS</button>
+    </div>
+    <h1 id="playerText"> PLAYER: </h1>
+    <h1 id="computerText">COMPUTER: </h1>
+    <h1 id="resultText"> RESULT :</h1>
+     <div class="scorecard">
         <div class="playerScore">0</div>
         <div class="computerScore">0</div>
-    </div>
+    </div> 
+   
 
+  </div>
+  <div id="game-over-card" class="hidden">
+    <div id="game-over-message"></div>
+    <button id="play-again">Play Again</button>
   </div>
   <script src="script.js"></script>
 </body>
