@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #92b4cf;
+  justify-content: center;
+  align-items: center;
+}
+.Game-div {
+  
+  text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+ .Selection > h1 {
+  font-size: 79px;
+
+color: rgb(35, 140, 35);
+}
+.btn {
+  border: 10px solid gray;
+  padding: 10px;  
+  margin: 10px;
+}
+#playerText {
+  color: rgb(10, 10, 203);
+}
+#computerText {
+  color: rgb(201, 28, 28);
+}
+.scorecard {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2px;
+}
+.playerScore {
+  background-color: black;
+  font-size:  95px;
+  padding: 70px;
+  color: white;
+  border-radius: 8px;
+}
+.computerScore {
+  background-color: black;
+  font-size:  95px;
+  padding: 70px;
+  color: white;
+  border-radius: 8px;
+}
+#game-over-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 8px;
+  margin-top: 20px;
+  
+}
+#game-over-message {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.hidden {
+  display: none;
+}
